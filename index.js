@@ -12,7 +12,7 @@ const ss = require('simple-statistics');
 
 // Enable CORS
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://lfmri-demo-client.onrender.com',
   methods: ['GET', 'POST'],
   credentials: true
 }));
