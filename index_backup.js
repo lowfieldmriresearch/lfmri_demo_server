@@ -11,10 +11,8 @@ const upload = multer({ dest: 'uploads/' });
 const ss = require('simple-statistics');
 
 // Enable CORS
-//http://localhost:3000
-//https://lfmri-demo-client.onrender.com
 app.use(cors({
-  origin: 'https://lfmri-demo-client.onrender.com',
+  origin: 'http://localhost:3000',
   methods: ['GET', 'POST'],
   credentials: true
 }));
